@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AFFD27824FB9CEA0080BA0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD27724FB9CEA0080BA0C /* AppDelegate.swift */; };
+		1AFFD27C24FB9CEA0080BA0C /* TinderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD27B24FB9CEA0080BA0C /* TinderListViewController.swift */; };
+		1AFFD27F24FB9CEA0080BA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFD27D24FB9CEA0080BA0C /* Main.storyboard */; };
+		1AFFD28224FB9CEA0080BA0C /* GojekTinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD28024FB9CEA0080BA0C /* GojekTinder.xcdatamodeld */; };
+		1AFFD28424FB9CEB0080BA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFD28324FB9CEB0080BA0C /* Assets.xcassets */; };
+		1AFFD28724FB9CEB0080BA0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AFFD28524FB9CEB0080BA0C /* LaunchScreen.storyboard */; };
+		1AFFD29224FB9CEB0080BA0C /* GojekTinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD29124FB9CEB0080BA0C /* GojekTinderTests.swift */; };
+		1AFFD29D24FB9CEB0080BA0C /* GojekTinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD29C24FB9CEB0080BA0C /* GojekTinderUITests.swift */; };
+		1AFFD2B724FB9F240080BA0C /* AccessibilityIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2B624FB9F240080BA0C /* AccessibilityIds.swift */; };
+		1AFFD2B824FB9F240080BA0C /* AccessibilityIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2B624FB9F240080BA0C /* AccessibilityIds.swift */; };
+		1AFFD2B924FB9F240080BA0C /* AccessibilityIds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2B624FB9F240080BA0C /* AccessibilityIds.swift */; };
+		1AFFD2BC24FB9F340080BA0C /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2BA24FB9F340080BA0C /* ErrorType.swift */; };
+		1AFFD2BD24FB9F340080BA0C /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2BA24FB9F340080BA0C /* ErrorType.swift */; };
+		1AFFD2BE24FB9F340080BA0C /* ErrorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2BA24FB9F340080BA0C /* ErrorType.swift */; };
+		1AFFD2BF24FB9F340080BA0C /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2BB24FB9F340080BA0C /* StringHelper.swift */; };
+		1AFFD2C024FB9F340080BA0C /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2BB24FB9F340080BA0C /* StringHelper.swift */; };
+		1AFFD2C124FB9F340080BA0C /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2BB24FB9F340080BA0C /* StringHelper.swift */; };
+		1AFFD2C724FB9F400080BA0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C224FB9F400080BA0C /* NetworkManager.swift */; };
+		1AFFD2C824FB9F400080BA0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C224FB9F400080BA0C /* NetworkManager.swift */; };
+		1AFFD2C924FB9F400080BA0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C224FB9F400080BA0C /* NetworkManager.swift */; };
+		1AFFD2CA24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C324FB9F400080BA0C /* HTTPResponseStatusCode.swift */; };
+		1AFFD2CB24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C324FB9F400080BA0C /* HTTPResponseStatusCode.swift */; };
+		1AFFD2CC24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C324FB9F400080BA0C /* HTTPResponseStatusCode.swift */; };
+		1AFFD2CD24FB9F400080BA0C /* ServerConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C424FB9F400080BA0C /* ServerConfigure.swift */; };
+		1AFFD2CE24FB9F400080BA0C /* ServerConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C424FB9F400080BA0C /* ServerConfigure.swift */; };
+		1AFFD2CF24FB9F400080BA0C /* ServerConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C424FB9F400080BA0C /* ServerConfigure.swift */; };
+		1AFFD2D024FB9F400080BA0C /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C524FB9F400080BA0C /* ApiRequest.swift */; };
+		1AFFD2D124FB9F400080BA0C /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C524FB9F400080BA0C /* ApiRequest.swift */; };
+		1AFFD2D224FB9F400080BA0C /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C524FB9F400080BA0C /* ApiRequest.swift */; };
+		1AFFD2D324FB9F400080BA0C /* BaseApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C624FB9F400080BA0C /* BaseApiRequest.swift */; };
+		1AFFD2D424FB9F400080BA0C /* BaseApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C624FB9F400080BA0C /* BaseApiRequest.swift */; };
+		1AFFD2D524FB9F400080BA0C /* BaseApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2C624FB9F400080BA0C /* BaseApiRequest.swift */; };
+		1AFFD2D724FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */; };
+		1AFFD2D824FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */; };
+		1AFFD2D924FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AFFD28E24FB9CEB0080BA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFFD26C24FB9CEA0080BA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFFD27324FB9CEA0080BA0C;
+			remoteInfo = GojekTinder;
+		};
+		1AFFD29924FB9CEB0080BA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AFFD26C24FB9CEA0080BA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AFFD27324FB9CEA0080BA0C;
+			remoteInfo = GojekTinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AFFD27424FB9CEA0080BA0C /* GojekTinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GojekTinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFFD27724FB9CEA0080BA0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AFFD27B24FB9CEA0080BA0C /* TinderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderListViewController.swift; sourceTree = "<group>"; };
+		1AFFD27E24FB9CEA0080BA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AFFD28124FB9CEA0080BA0C /* GojekTinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GojekTinder.xcdatamodel; sourceTree = "<group>"; };
+		1AFFD28324FB9CEB0080BA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AFFD28624FB9CEB0080BA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AFFD28824FB9CEB0080BA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFFD28D24FB9CEB0080BA0C /* GojekTinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GojekTinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFFD29124FB9CEB0080BA0C /* GojekTinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojekTinderTests.swift; sourceTree = "<group>"; };
+		1AFFD29324FB9CEB0080BA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFFD29824FB9CEB0080BA0C /* GojekTinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GojekTinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFFD29C24FB9CEB0080BA0C /* GojekTinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GojekTinderUITests.swift; sourceTree = "<group>"; };
+		1AFFD29E24FB9CEB0080BA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFFD2B624FB9F240080BA0C /* AccessibilityIds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityIds.swift; sourceTree = "<group>"; };
+		1AFFD2BA24FB9F340080BA0C /* ErrorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorType.swift; sourceTree = "<group>"; };
+		1AFFD2BB24FB9F340080BA0C /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		1AFFD2C224FB9F400080BA0C /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1AFFD2C324FB9F400080BA0C /* HTTPResponseStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPResponseStatusCode.swift; sourceTree = "<group>"; };
+		1AFFD2C424FB9F400080BA0C /* ServerConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConfigure.swift; sourceTree = "<group>"; };
+		1AFFD2C524FB9F400080BA0C /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		1AFFD2C624FB9F400080BA0C /* BaseApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApiRequest.swift; sourceTree = "<group>"; };
+		1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTinderUsersResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AFFD27124FB9CEA0080BA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFD28A24FB9CEB0080BA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFD29524FB9CEB0080BA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFFD26B24FB9CEA0080BA0C = {
+			isa = PBXGroup;
+			children = (
+				1AFFD27624FB9CEA0080BA0C /* GojekTinder */,
+				1AFFD29024FB9CEB0080BA0C /* GojekTinderTests */,
+				1AFFD29B24FB9CEB0080BA0C /* GojekTinderUITests */,
+				1AFFD27524FB9CEA0080BA0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AFFD27524FB9CEA0080BA0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD27424FB9CEA0080BA0C /* GojekTinder.app */,
+				1AFFD28D24FB9CEB0080BA0C /* GojekTinderTests.xctest */,
+				1AFFD29824FB9CEB0080BA0C /* GojekTinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AFFD27624FB9CEA0080BA0C /* GojekTinder */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD2AA24FB9D350080BA0C /* AppDelegate */,
+				1AFFD2AD24FB9E7E0080BA0C /* Features */,
+				1AFFD2B324FB9EC80080BA0C /* Shared */,
+				1AFFD2B424FB9ED40080BA0C /* Extensions */,
+				1AFFD2AC24FB9D4E0080BA0C /* Storyboards */,
+				1AFFD2AB24FB9D430080BA0C /* Resources */,
+				1AFFD28824FB9CEB0080BA0C /* Info.plist */,
+			);
+			path = GojekTinder;
+			sourceTree = "<group>";
+		};
+		1AFFD29024FB9CEB0080BA0C /* GojekTinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD29124FB9CEB0080BA0C /* GojekTinderTests.swift */,
+				1AFFD29324FB9CEB0080BA0C /* Info.plist */,
+			);
+			path = GojekTinderTests;
+			sourceTree = "<group>";
+		};
+		1AFFD29B24FB9CEB0080BA0C /* GojekTinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD29C24FB9CEB0080BA0C /* GojekTinderUITests.swift */,
+				1AFFD29E24FB9CEB0080BA0C /* Info.plist */,
+			);
+			path = GojekTinderUITests;
+			sourceTree = "<group>";
+		};
+		1AFFD2AA24FB9D350080BA0C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD27724FB9CEA0080BA0C /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1AFFD2AB24FB9D430080BA0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD28324FB9CEB0080BA0C /* Assets.xcassets */,
+				1AFFD28024FB9CEA0080BA0C /* GojekTinder.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1AFFD2AC24FB9D4E0080BA0C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD27D24FB9CEA0080BA0C /* Main.storyboard */,
+				1AFFD28524FB9CEB0080BA0C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1AFFD2AD24FB9E7E0080BA0C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD2AE24FB9E890080BA0C /* MainList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		1AFFD2AE24FB9E890080BA0C /* MainList */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD2B024FB9EA40080BA0C /* Protocol */,
+				1AFFD2B224FB9EB10080BA0C /* ViewModel */,
+				1AFFD2AF24FB9E900080BA0C /* View */,
+				1AFFD2B124FB9EAC0080BA0C /* Model */,
+			);
+			path = MainList;
+			sourceTree = "<group>";
+		};
+		1AFFD2AF24FB9E900080BA0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD27B24FB9CEA0080BA0C /* TinderListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1AFFD2B024FB9EA40080BA0C /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		1AFFD2B124FB9EAC0080BA0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD2DB24FB9FAC0080BA0C /* UI */,
+				1AFFD2DA24FB9FA10080BA0C /* Networking */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AFFD2B224FB9EB10080BA0C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1AFFD2B324FB9EC80080BA0C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD2B524FB9EE40080BA0C /* Networking */,
+				1AFFD2BA24FB9F340080BA0C /* ErrorType.swift */,
+				1AFFD2BB24FB9F340080BA0C /* StringHelper.swift */,
+				1AFFD2B624FB9F240080BA0C /* AccessibilityIds.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1AFFD2B424FB9ED40080BA0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1AFFD2B524FB9EE40080BA0C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD2C524FB9F400080BA0C /* ApiRequest.swift */,
+				1AFFD2C624FB9F400080BA0C /* BaseApiRequest.swift */,
+				1AFFD2C324FB9F400080BA0C /* HTTPResponseStatusCode.swift */,
+				1AFFD2C224FB9F400080BA0C /* NetworkManager.swift */,
+				1AFFD2C424FB9F400080BA0C /* ServerConfigure.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1AFFD2DA24FB9FA10080BA0C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1AFFD2DB24FB9FAC0080BA0C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AFFD27324FB9CEA0080BA0C /* GojekTinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFFD2A124FB9CEB0080BA0C /* Build configuration list for PBXNativeTarget "GojekTinder" */;
+			buildPhases = (
+				1AFFD27024FB9CEA0080BA0C /* Sources */,
+				1AFFD27124FB9CEA0080BA0C /* Frameworks */,
+				1AFFD27224FB9CEA0080BA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GojekTinder;
+			productName = GojekTinder;
+			productReference = 1AFFD27424FB9CEA0080BA0C /* GojekTinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AFFD28C24FB9CEB0080BA0C /* GojekTinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFFD2A424FB9CEB0080BA0C /* Build configuration list for PBXNativeTarget "GojekTinderTests" */;
+			buildPhases = (
+				1AFFD28924FB9CEB0080BA0C /* Sources */,
+				1AFFD28A24FB9CEB0080BA0C /* Frameworks */,
+				1AFFD28B24FB9CEB0080BA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFFD28F24FB9CEB0080BA0C /* PBXTargetDependency */,
+			);
+			name = GojekTinderTests;
+			productName = GojekTinderTests;
+			productReference = 1AFFD28D24FB9CEB0080BA0C /* GojekTinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AFFD29724FB9CEB0080BA0C /* GojekTinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AFFD2A724FB9CEB0080BA0C /* Build configuration list for PBXNativeTarget "GojekTinderUITests" */;
+			buildPhases = (
+				1AFFD29424FB9CEB0080BA0C /* Sources */,
+				1AFFD29524FB9CEB0080BA0C /* Frameworks */,
+				1AFFD29624FB9CEB0080BA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AFFD29A24FB9CEB0080BA0C /* PBXTargetDependency */,
+			);
+			name = GojekTinderUITests;
+			productName = GojekTinderUITests;
+			productReference = 1AFFD29824FB9CEB0080BA0C /* GojekTinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AFFD26C24FB9CEA0080BA0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Tien Pham";
+				TargetAttributes = {
+					1AFFD27324FB9CEA0080BA0C = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					1AFFD28C24FB9CEB0080BA0C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1AFFD27324FB9CEA0080BA0C;
+					};
+					1AFFD29724FB9CEB0080BA0C = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 1AFFD27324FB9CEA0080BA0C;
+					};
+				};
+			};
+			buildConfigurationList = 1AFFD26F24FB9CEA0080BA0C /* Build configuration list for PBXProject "GojekTinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AFFD26B24FB9CEA0080BA0C;
+			productRefGroup = 1AFFD27524FB9CEA0080BA0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AFFD27324FB9CEA0080BA0C /* GojekTinder */,
+				1AFFD28C24FB9CEB0080BA0C /* GojekTinderTests */,
+				1AFFD29724FB9CEB0080BA0C /* GojekTinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AFFD27224FB9CEA0080BA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFD28724FB9CEB0080BA0C /* LaunchScreen.storyboard in Resources */,
+				1AFFD28424FB9CEB0080BA0C /* Assets.xcassets in Resources */,
+				1AFFD27F24FB9CEA0080BA0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFD28B24FB9CEB0080BA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFD29624FB9CEB0080BA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AFFD27024FB9CEA0080BA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFD2BF24FB9F340080BA0C /* StringHelper.swift in Sources */,
+				1AFFD27C24FB9CEA0080BA0C /* TinderListViewController.swift in Sources */,
+				1AFFD2BC24FB9F340080BA0C /* ErrorType.swift in Sources */,
+				1AFFD2C724FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD2D324FB9F400080BA0C /* BaseApiRequest.swift in Sources */,
+				1AFFD2B724FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
+				1AFFD2CA24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
+				1AFFD2D724FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
+				1AFFD27824FB9CEA0080BA0C /* AppDelegate.swift in Sources */,
+				1AFFD2CD24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
+				1AFFD2D024FB9F400080BA0C /* ApiRequest.swift in Sources */,
+				1AFFD28224FB9CEA0080BA0C /* GojekTinder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFD28924FB9CEB0080BA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFD2C024FB9F340080BA0C /* StringHelper.swift in Sources */,
+				1AFFD2CB24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
+				1AFFD2CE24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
+				1AFFD2D824FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
+				1AFFD29224FB9CEB0080BA0C /* GojekTinderTests.swift in Sources */,
+				1AFFD2C824FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD2BD24FB9F340080BA0C /* ErrorType.swift in Sources */,
+				1AFFD2D124FB9F400080BA0C /* ApiRequest.swift in Sources */,
+				1AFFD2B824FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
+				1AFFD2D424FB9F400080BA0C /* BaseApiRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AFFD29424FB9CEB0080BA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AFFD2C124FB9F340080BA0C /* StringHelper.swift in Sources */,
+				1AFFD2CC24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
+				1AFFD2CF24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
+				1AFFD2D924FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
+				1AFFD29D24FB9CEB0080BA0C /* GojekTinderUITests.swift in Sources */,
+				1AFFD2C924FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD2BE24FB9F340080BA0C /* ErrorType.swift in Sources */,
+				1AFFD2D224FB9F400080BA0C /* ApiRequest.swift in Sources */,
+				1AFFD2B924FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
+				1AFFD2D524FB9F400080BA0C /* BaseApiRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AFFD28F24FB9CEB0080BA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFFD27324FB9CEA0080BA0C /* GojekTinder */;
+			targetProxy = 1AFFD28E24FB9CEB0080BA0C /* PBXContainerItemProxy */;
+		};
+		1AFFD29A24FB9CEB0080BA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AFFD27324FB9CEA0080BA0C /* GojekTinder */;
+			targetProxy = 1AFFD29924FB9CEB0080BA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AFFD27D24FB9CEA0080BA0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFFD27E24FB9CEA0080BA0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AFFD28524FB9CEB0080BA0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AFFD28624FB9CEB0080BA0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AFFD29F24FB9CEB0080BA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AFFD2A024FB9CEB0080BA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AFFD2A224FB9CEB0080BA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GojekTinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phduytien.GojekTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AFFD2A324FB9CEB0080BA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GojekTinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phduytien.GojekTinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1AFFD2A524FB9CEB0080BA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GojekTinderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phduytien.GojekTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GojekTinder.app/GojekTinder";
+			};
+			name = Debug;
+		};
+		1AFFD2A624FB9CEB0080BA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GojekTinderTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phduytien.GojekTinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GojekTinder.app/GojekTinder";
+			};
+			name = Release;
+		};
+		1AFFD2A824FB9CEB0080BA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GojekTinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phduytien.GojekTinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GojekTinder;
+			};
+			name = Debug;
+		};
+		1AFFD2A924FB9CEB0080BA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GojekTinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.phduytien.GojekTinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GojekTinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AFFD26F24FB9CEA0080BA0C /* Build configuration list for PBXProject "GojekTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFD29F24FB9CEB0080BA0C /* Debug */,
+				1AFFD2A024FB9CEB0080BA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFFD2A124FB9CEB0080BA0C /* Build configuration list for PBXNativeTarget "GojekTinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFD2A224FB9CEB0080BA0C /* Debug */,
+				1AFFD2A324FB9CEB0080BA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFFD2A424FB9CEB0080BA0C /* Build configuration list for PBXNativeTarget "GojekTinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFD2A524FB9CEB0080BA0C /* Debug */,
+				1AFFD2A624FB9CEB0080BA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AFFD2A724FB9CEB0080BA0C /* Build configuration list for PBXNativeTarget "GojekTinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AFFD2A824FB9CEB0080BA0C /* Debug */,
+				1AFFD2A924FB9CEB0080BA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1AFFD28024FB9CEA0080BA0C /* GojekTinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1AFFD28124FB9CEA0080BA0C /* GojekTinder.xcdatamodel */,
+			);
+			currentVersion = 1AFFD28124FB9CEA0080BA0C /* GojekTinder.xcdatamodel */;
+			path = GojekTinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1AFFD26C24FB9CEA0080BA0C /* Project object */;
+}
