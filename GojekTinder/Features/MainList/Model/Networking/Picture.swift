@@ -1,5 +1,5 @@
 //
-//  ListTinderUsersResponse.swift
+//  Picture.swift
 //  GojekTinder
 //
 //  Created by Tien Pham on 8/30/20.
@@ -8,13 +8,12 @@
 
 import Foundation
 
-class ListTinderUsersResponse: Codable {
+struct Picture: Codable {
 
     // MARK: - Properties
-
-    let result: [User]?
+    let large: String?
 
     private enum CodingKeys: String, CodingKey {
-        case result
+        case large
     }
 }

@@ -1,5 +1,5 @@
 //
-//  ListTinderUsersResponse.swift
+//  Coordinates.swift
 //  GojekTinder
 //
 //  Created by Tien Pham on 8/30/20.
@@ -8,13 +8,14 @@
 
 import Foundation
 
-class ListTinderUsersResponse: Codable {
+struct Coordinates: Codable {
 
     // MARK: - Properties
-
-    let result: [User]?
+    let latitude: Double?
+    let longitude: Double?
 
     private enum CodingKeys: String, CodingKey {
-        case result
+        case latitude
+        case longitude
     }
 }

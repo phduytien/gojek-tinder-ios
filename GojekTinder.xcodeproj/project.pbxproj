@@ -54,6 +54,33 @@
 		1AFFD2E924FBB0490080BA0C /* StackContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */; };
 		1AFFD2EA24FBB0490080BA0C /* StackContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */; };
 		1AFFD2EB24FBB0490080BA0C /* StackContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */; };
+		1AFFD2ED24FC01F70080BA0C /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2EC24FC01F70080BA0C /* Name.swift */; };
+		1AFFD2EE24FC01F70080BA0C /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2EC24FC01F70080BA0C /* Name.swift */; };
+		1AFFD2EF24FC01F70080BA0C /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2EC24FC01F70080BA0C /* Name.swift */; };
+		1AFFD2F124FC02470080BA0C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F024FC02470080BA0C /* Location.swift */; };
+		1AFFD2F224FC02470080BA0C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F024FC02470080BA0C /* Location.swift */; };
+		1AFFD2F324FC02470080BA0C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F024FC02470080BA0C /* Location.swift */; };
+		1AFFD2F524FC026C0080BA0C /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F424FC026C0080BA0C /* Street.swift */; };
+		1AFFD2F624FC026C0080BA0C /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F424FC026C0080BA0C /* Street.swift */; };
+		1AFFD2F724FC026C0080BA0C /* Street.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F424FC026C0080BA0C /* Street.swift */; };
+		1AFFD2F924FC027F0080BA0C /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F824FC027F0080BA0C /* Coordinates.swift */; };
+		1AFFD2FA24FC027F0080BA0C /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F824FC027F0080BA0C /* Coordinates.swift */; };
+		1AFFD2FB24FC027F0080BA0C /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2F824FC027F0080BA0C /* Coordinates.swift */; };
+		1AFFD2FD24FC02F50080BA0C /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2FC24FC02F50080BA0C /* Picture.swift */; };
+		1AFFD2FE24FC02F50080BA0C /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2FC24FC02F50080BA0C /* Picture.swift */; };
+		1AFFD2FF24FC02F50080BA0C /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2FC24FC02F50080BA0C /* Picture.swift */; };
+		1AFFD30124FC05C60080BA0C /* DateOfBirth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30024FC05C60080BA0C /* DateOfBirth.swift */; };
+		1AFFD30224FC05C60080BA0C /* DateOfBirth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30024FC05C60080BA0C /* DateOfBirth.swift */; };
+		1AFFD30324FC05C60080BA0C /* DateOfBirth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30024FC05C60080BA0C /* DateOfBirth.swift */; };
+		1AFFD30524FC066C0080BA0C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30424FC066C0080BA0C /* Login.swift */; };
+		1AFFD30624FC066C0080BA0C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30424FC066C0080BA0C /* Login.swift */; };
+		1AFFD30724FC066C0080BA0C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30424FC066C0080BA0C /* Login.swift */; };
+		1AFFD30924FC074F0080BA0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30824FC074F0080BA0C /* User.swift */; };
+		1AFFD30A24FC074F0080BA0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30824FC074F0080BA0C /* User.swift */; };
+		1AFFD30B24FC074F0080BA0C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30824FC074F0080BA0C /* User.swift */; };
+		1AFFD30D24FC091F0080BA0C /* UserUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30C24FC091F0080BA0C /* UserUIModel.swift */; };
+		1AFFD30E24FC091F0080BA0C /* UserUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30C24FC091F0080BA0C /* UserUIModel.swift */; };
+		1AFFD30F24FC091F0080BA0C /* UserUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD30C24FC091F0080BA0C /* UserUIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +128,15 @@
 		1AFFD2E024FBB0280080BA0C /* CardsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsDataModel.swift; sourceTree = "<group>"; };
 		1AFFD2E424FBB0490080BA0C /* SwipeCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
 		1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackContainerView.swift; sourceTree = "<group>"; };
+		1AFFD2EC24FC01F70080BA0C /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		1AFFD2F024FC02470080BA0C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1AFFD2F424FC026C0080BA0C /* Street.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Street.swift; sourceTree = "<group>"; };
+		1AFFD2F824FC027F0080BA0C /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		1AFFD2FC24FC02F50080BA0C /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		1AFFD30024FC05C60080BA0C /* DateOfBirth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateOfBirth.swift; sourceTree = "<group>"; };
+		1AFFD30424FC066C0080BA0C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		1AFFD30824FC074F0080BA0C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1AFFD30C24FC091F0080BA0C /* UserUIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUIModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +330,14 @@
 			isa = PBXGroup;
 			children = (
 				1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */,
+				1AFFD30824FC074F0080BA0C /* User.swift */,
+				1AFFD2EC24FC01F70080BA0C /* Name.swift */,
+				1AFFD2F024FC02470080BA0C /* Location.swift */,
+				1AFFD2F424FC026C0080BA0C /* Street.swift */,
+				1AFFD2F824FC027F0080BA0C /* Coordinates.swift */,
+				1AFFD2FC24FC02F50080BA0C /* Picture.swift */,
+				1AFFD30024FC05C60080BA0C /* DateOfBirth.swift */,
+				1AFFD30424FC066C0080BA0C /* Login.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -301,6 +345,7 @@
 		1AFFD2DB24FB9FAC0080BA0C /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1AFFD30C24FC091F0080BA0C /* UserUIModel.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -438,18 +483,27 @@
 			files = (
 				1AFFD2BF24FB9F340080BA0C /* StringHelper.swift in Sources */,
 				1AFFD27C24FB9CEA0080BA0C /* TinderListViewController.swift in Sources */,
+				1AFFD2F924FC027F0080BA0C /* Coordinates.swift in Sources */,
 				1AFFD2BC24FB9F340080BA0C /* ErrorType.swift in Sources */,
 				1AFFD2C724FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD2F124FC02470080BA0C /* Location.swift in Sources */,
 				1AFFD2D324FB9F400080BA0C /* BaseApiRequest.swift in Sources */,
 				1AFFD2E124FBB0280080BA0C /* CardsDataModel.swift in Sources */,
+				1AFFD2F524FC026C0080BA0C /* Street.swift in Sources */,
 				1AFFD2B724FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
+				1AFFD2ED24FC01F70080BA0C /* Name.swift in Sources */,
 				1AFFD2E924FBB0490080BA0C /* StackContainerView.swift in Sources */,
 				1AFFD2CA24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
 				1AFFD2D724FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
 				1AFFD27824FB9CEA0080BA0C /* AppDelegate.swift in Sources */,
 				1AFFD2CD24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
 				1AFFD2D024FB9F400080BA0C /* ApiRequest.swift in Sources */,
+				1AFFD30D24FC091F0080BA0C /* UserUIModel.swift in Sources */,
+				1AFFD30524FC066C0080BA0C /* Login.swift in Sources */,
 				1AFFD2DD24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */,
+				1AFFD30124FC05C60080BA0C /* DateOfBirth.swift in Sources */,
+				1AFFD30924FC074F0080BA0C /* User.swift in Sources */,
+				1AFFD2FD24FC02F50080BA0C /* Picture.swift in Sources */,
 				1AFFD28224FB9CEA0080BA0C /* GojekTinder.xcdatamodeld in Sources */,
 				1AFFD2E624FBB0490080BA0C /* SwipeCardView.swift in Sources */,
 			);
@@ -459,18 +513,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFFD30624FC066C0080BA0C /* Login.swift in Sources */,
 				1AFFD2C024FB9F340080BA0C /* StringHelper.swift in Sources */,
 				1AFFD2CB24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
+				1AFFD2F224FC02470080BA0C /* Location.swift in Sources */,
+				1AFFD2F624FC026C0080BA0C /* Street.swift in Sources */,
 				1AFFD2CE24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
 				1AFFD2E724FBB0490080BA0C /* SwipeCardView.swift in Sources */,
 				1AFFD2D824FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
 				1AFFD2EA24FBB0490080BA0C /* StackContainerView.swift in Sources */,
+				1AFFD30224FC05C60080BA0C /* DateOfBirth.swift in Sources */,
+				1AFFD30A24FC074F0080BA0C /* User.swift in Sources */,
+				1AFFD2FA24FC027F0080BA0C /* Coordinates.swift in Sources */,
 				1AFFD2DE24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */,
 				1AFFD29224FB9CEB0080BA0C /* GojekTinderTests.swift in Sources */,
 				1AFFD2C824FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD30E24FC091F0080BA0C /* UserUIModel.swift in Sources */,
+				1AFFD2EE24FC01F70080BA0C /* Name.swift in Sources */,
 				1AFFD2E224FBB0280080BA0C /* CardsDataModel.swift in Sources */,
 				1AFFD2BD24FB9F340080BA0C /* ErrorType.swift in Sources */,
 				1AFFD2D124FB9F400080BA0C /* ApiRequest.swift in Sources */,
+				1AFFD2FE24FC02F50080BA0C /* Picture.swift in Sources */,
 				1AFFD2B824FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
 				1AFFD2D424FB9F400080BA0C /* BaseApiRequest.swift in Sources */,
 			);
@@ -480,18 +543,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AFFD30724FC066C0080BA0C /* Login.swift in Sources */,
 				1AFFD2C124FB9F340080BA0C /* StringHelper.swift in Sources */,
 				1AFFD2CC24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
+				1AFFD2F324FC02470080BA0C /* Location.swift in Sources */,
+				1AFFD2F724FC026C0080BA0C /* Street.swift in Sources */,
 				1AFFD2CF24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
 				1AFFD2E824FBB0490080BA0C /* SwipeCardView.swift in Sources */,
 				1AFFD2D924FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
 				1AFFD2EB24FBB0490080BA0C /* StackContainerView.swift in Sources */,
+				1AFFD30324FC05C60080BA0C /* DateOfBirth.swift in Sources */,
+				1AFFD30B24FC074F0080BA0C /* User.swift in Sources */,
+				1AFFD2FB24FC027F0080BA0C /* Coordinates.swift in Sources */,
 				1AFFD2DF24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */,
 				1AFFD29D24FB9CEB0080BA0C /* GojekTinderUITests.swift in Sources */,
 				1AFFD2C924FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD30F24FC091F0080BA0C /* UserUIModel.swift in Sources */,
+				1AFFD2EF24FC01F70080BA0C /* Name.swift in Sources */,
 				1AFFD2E324FBB0280080BA0C /* CardsDataModel.swift in Sources */,
 				1AFFD2BE24FB9F340080BA0C /* ErrorType.swift in Sources */,
 				1AFFD2D224FB9F400080BA0C /* ApiRequest.swift in Sources */,
+				1AFFD2FF24FC02F50080BA0C /* Picture.swift in Sources */,
 				1AFFD2B924FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
 				1AFFD2D524FB9F400080BA0C /* BaseApiRequest.swift in Sources */,
 			);
