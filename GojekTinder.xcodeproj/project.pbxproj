@@ -42,6 +42,18 @@
 		1AFFD2D724FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */; };
 		1AFFD2D824FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */; };
 		1AFFD2D924FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */; };
+		1AFFD2DD24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2DC24FBB00D0080BA0C /* SwipeCardsDataSource.swift */; };
+		1AFFD2DE24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2DC24FBB00D0080BA0C /* SwipeCardsDataSource.swift */; };
+		1AFFD2DF24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2DC24FBB00D0080BA0C /* SwipeCardsDataSource.swift */; };
+		1AFFD2E124FBB0280080BA0C /* CardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E024FBB0280080BA0C /* CardsDataModel.swift */; };
+		1AFFD2E224FBB0280080BA0C /* CardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E024FBB0280080BA0C /* CardsDataModel.swift */; };
+		1AFFD2E324FBB0280080BA0C /* CardsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E024FBB0280080BA0C /* CardsDataModel.swift */; };
+		1AFFD2E624FBB0490080BA0C /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E424FBB0490080BA0C /* SwipeCardView.swift */; };
+		1AFFD2E724FBB0490080BA0C /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E424FBB0490080BA0C /* SwipeCardView.swift */; };
+		1AFFD2E824FBB0490080BA0C /* SwipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E424FBB0490080BA0C /* SwipeCardView.swift */; };
+		1AFFD2E924FBB0490080BA0C /* StackContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */; };
+		1AFFD2EA24FBB0490080BA0C /* StackContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */; };
+		1AFFD2EB24FBB0490080BA0C /* StackContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +97,10 @@
 		1AFFD2C524FB9F400080BA0C /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		1AFFD2C624FB9F400080BA0C /* BaseApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseApiRequest.swift; sourceTree = "<group>"; };
 		1AFFD2D624FB9F810080BA0C /* ListTinderUsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTinderUsersResponse.swift; sourceTree = "<group>"; };
+		1AFFD2DC24FBB00D0080BA0C /* SwipeCardsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardsDataSource.swift; sourceTree = "<group>"; };
+		1AFFD2E024FBB0280080BA0C /* CardsDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsDataModel.swift; sourceTree = "<group>"; };
+		1AFFD2E424FBB0490080BA0C /* SwipeCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardView.swift; sourceTree = "<group>"; };
+		1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +228,8 @@
 		1AFFD2AF24FB9E900080BA0C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1AFFD2E524FBB0490080BA0C /* StackContainerView.swift */,
+				1AFFD2E424FBB0490080BA0C /* SwipeCardView.swift */,
 				1AFFD27B24FB9CEA0080BA0C /* TinderListViewController.swift */,
 			);
 			path = View;
@@ -227,6 +245,7 @@
 		1AFFD2B124FB9EAC0080BA0C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1AFFD2E024FBB0280080BA0C /* CardsDataModel.swift */,
 				1AFFD2DB24FB9FAC0080BA0C /* UI */,
 				1AFFD2DA24FB9FA10080BA0C /* Networking */,
 			);
@@ -236,6 +255,7 @@
 		1AFFD2B224FB9EB10080BA0C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1AFFD2DC24FBB00D0080BA0C /* SwipeCardsDataSource.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -421,13 +441,17 @@
 				1AFFD2BC24FB9F340080BA0C /* ErrorType.swift in Sources */,
 				1AFFD2C724FB9F400080BA0C /* NetworkManager.swift in Sources */,
 				1AFFD2D324FB9F400080BA0C /* BaseApiRequest.swift in Sources */,
+				1AFFD2E124FBB0280080BA0C /* CardsDataModel.swift in Sources */,
 				1AFFD2B724FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
+				1AFFD2E924FBB0490080BA0C /* StackContainerView.swift in Sources */,
 				1AFFD2CA24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
 				1AFFD2D724FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
 				1AFFD27824FB9CEA0080BA0C /* AppDelegate.swift in Sources */,
 				1AFFD2CD24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
 				1AFFD2D024FB9F400080BA0C /* ApiRequest.swift in Sources */,
+				1AFFD2DD24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */,
 				1AFFD28224FB9CEA0080BA0C /* GojekTinder.xcdatamodeld in Sources */,
+				1AFFD2E624FBB0490080BA0C /* SwipeCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,9 +462,13 @@
 				1AFFD2C024FB9F340080BA0C /* StringHelper.swift in Sources */,
 				1AFFD2CB24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
 				1AFFD2CE24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
+				1AFFD2E724FBB0490080BA0C /* SwipeCardView.swift in Sources */,
 				1AFFD2D824FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
+				1AFFD2EA24FBB0490080BA0C /* StackContainerView.swift in Sources */,
+				1AFFD2DE24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */,
 				1AFFD29224FB9CEB0080BA0C /* GojekTinderTests.swift in Sources */,
 				1AFFD2C824FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD2E224FBB0280080BA0C /* CardsDataModel.swift in Sources */,
 				1AFFD2BD24FB9F340080BA0C /* ErrorType.swift in Sources */,
 				1AFFD2D124FB9F400080BA0C /* ApiRequest.swift in Sources */,
 				1AFFD2B824FB9F240080BA0C /* AccessibilityIds.swift in Sources */,
@@ -455,9 +483,13 @@
 				1AFFD2C124FB9F340080BA0C /* StringHelper.swift in Sources */,
 				1AFFD2CC24FB9F400080BA0C /* HTTPResponseStatusCode.swift in Sources */,
 				1AFFD2CF24FB9F400080BA0C /* ServerConfigure.swift in Sources */,
+				1AFFD2E824FBB0490080BA0C /* SwipeCardView.swift in Sources */,
 				1AFFD2D924FB9F810080BA0C /* ListTinderUsersResponse.swift in Sources */,
+				1AFFD2EB24FBB0490080BA0C /* StackContainerView.swift in Sources */,
+				1AFFD2DF24FBB00D0080BA0C /* SwipeCardsDataSource.swift in Sources */,
 				1AFFD29D24FB9CEB0080BA0C /* GojekTinderUITests.swift in Sources */,
 				1AFFD2C924FB9F400080BA0C /* NetworkManager.swift in Sources */,
+				1AFFD2E324FBB0280080BA0C /* CardsDataModel.swift in Sources */,
 				1AFFD2BE24FB9F340080BA0C /* ErrorType.swift in Sources */,
 				1AFFD2D224FB9F400080BA0C /* ApiRequest.swift in Sources */,
 				1AFFD2B924FB9F240080BA0C /* AccessibilityIds.swift in Sources */,

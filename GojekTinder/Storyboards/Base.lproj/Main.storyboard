@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="24" y="89"/>
         </scene>
-        <!--View Controller-->
+        <!--Tinder List View Controller-->
         <scene sceneID="FTr-sE-4od">
             <objects>
-                <viewController id="aZk-vd-YEb" sceneMemberID="viewController">
+                <viewController id="aZk-vd-YEb" customClass="TinderListViewController" customModule="GojekTinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b0b-Vp-GGV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,6 +34,9 @@
                         <viewLayoutGuide key="safeArea" id="6Cx-cN-4T9"/>
                     </view>
                     <navigationItem key="navigationItem" id="M4M-L0-gTr"/>
+                    <connections>
+                        <outlet property="view" destination="b0b-Vp-GGV" id="DKs-zR-KWn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7y-nR-vLN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
